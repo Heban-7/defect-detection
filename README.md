@@ -2,7 +2,7 @@
 
 This repository contains the full analysis for the defect detection model assessment
 
-The primary goal is to determine an optimal confidence threshold for the model and provide concrete, data-driven recommendations for future improvement.
+The primary goal is to determine an optimal confidence threshold for the model and provide data-driven recommendations for future improvement.
 
 ## Repository Structure
 
