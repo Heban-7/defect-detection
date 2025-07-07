@@ -121,6 +121,13 @@ def compare_datasets(anno_df, pred_df, show_plot=True):
 
     print(f"\nNumber of unique images in Annotation data: {len(anno_images)}")
     print(f"Number of unique images in Prediction data: {len(pred_images)}")
+    
+    # Get the number of unique id in each dataset
+    anno_id = set(anno_df['id'].unique())
+    pred_prediction_id = set(pred_df['prediction_id'].unique())
+
+    print(f"\nNumber of unique id in Annotation data: {len(anno_id)}")
+    print(f"Number of unique images in Prediction data: {len(pred_prediction_id)}")
 
 
     # Create a summary DataFrame to compare counts per image
